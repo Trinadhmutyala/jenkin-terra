@@ -16,6 +16,7 @@ pipeline {
                 // Clone the Git repository
                 git branch: 'main',
                     url: 'git@github.com:Trinadhmutyala/jenkin-terra.git'
+                    credentialsId: 'a4c7d9da-2f8b-4d60-b914-cab63634c1c8'
 
                 sh "ls -lart"
             }
